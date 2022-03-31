@@ -26,10 +26,10 @@ function user() {
 function com() {
     do {
 
-        var com = com + ran()
+        var computer = computer + ran()
 
         alert(`The computer got ${ran()}. The number is now ${com}`)
 
     } while (com <= 16)
-    return com
+    return computer
 }
